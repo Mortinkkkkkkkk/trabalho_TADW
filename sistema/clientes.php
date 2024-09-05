@@ -32,9 +32,8 @@
              $stmt = mysqli_prepare($conexao, $sql);
              mysqli_stmt_bind_param($stmt, "s", $nome);
              mysqli_stmt_execute($stmt);
-            
-              echo"php";
-          
+             
+     
             
         }elseif ($origem == 2) {
             
